@@ -99,9 +99,28 @@ footer p {
   margin-bottom: 0px;
 }
 
+section.downloadResume {
+  margin: 1% 4%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
 .experience,
 .education {
   margin: 10% 20%;
+}
+
+.download p a {
+  text-decoration: none;
+  font-size: 15px;
+  color: #292929;
+}
+
+.download p a:hover {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #292929;
 }
 
 .experience:first-of-type {
